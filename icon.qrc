@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="iocn">
+    <file>images/voc.png</file>
+    <file>images/颜色增强.png</file>
+    <file>images/管道.png</file>
+    <file>images/轮船.png</file>
+    <file>images/飞机.png</file>
+    <file>images/港口.png</file>
+    <file>images/拱式桥.png</file>
+    <file>images/汽车.png</file>
+    <file>images/分类.png</file>
+    <file>images/道路.png</file>
+    <file>images/停车场.png</file>
+    <file>images/飞机.png</file>
+    <file>images/河流.png</file>
+    <file>images/建筑.png</file>
+    <file>images/露天体育馆.png</file>
+    <file>images/setting.png</file>
+    <file>images/about.png</file>
+    <file>images/help.png</file>
+    <file>images/Aug.png</file>
+    <file>images/pan.png</file>
+    <file>images/roomin.png</file>
+    <file>images/roomout.png</file>
+    <file>images/deepl.png</file>
+    <file>images/trans.png</file>
+    <file>images/util.png</file>
+    <file>images/cut.png</file>
+    <file>images/pyqgis.png</file>
+    <file>images/raster.png</file>
+    <file>images/vector.png</file>
+    <file>images/open.png</file>
+  </qresource>
+</RCC>
