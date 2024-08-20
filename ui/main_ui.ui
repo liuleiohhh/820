@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1091</width>
+    <height>766</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="contextMenuPolicy">
+       <enum>Qt::DefaultContextMenu</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>目标提取</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>111</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::DefaultContextMenu</enum>
+        </property>
+        <property name="text">
+         <string>桥梁提取</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../icon.qrc">
+          <normaloff>:/iocn/images/拱式桥.png</normaloff>:/iocn/images/拱式桥.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>360</y>
+          <width>110</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>轮船提取</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/轮船.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>10</y>
+          <width>110</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>体育场提取</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/露天体育馆.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+       <widget class="QPushButton" name="pushButton_1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>150</y>
+          <width>110</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>飞机提取</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/飞机.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>220</y>
+          <width>110</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>港口提取</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/港口.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>290</y>
+          <width>110</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>车辆提取</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/汽车.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">buttonGroup</string>
+        </attribute>
+       </widget>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>430</y>
+          <width>110</width>
+          <height>60</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>储存罐提取</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/管道.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>地物分类</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_feilei">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>10</y>
+          <width>101</width>
+          <height>81</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>地物分类</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normalon>:/iocn/images/分类.png</normalon>
+         </iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>34</width>
+          <height>34</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="windowTitle">
+    <string>图层</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents"/>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>46</width>
+     <height>26</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionGeotiff"/>
+   <addaction name="separator"/>
+   <addaction name="actionShapefile"/>
+   <addaction name="separator"/>
+   <addaction name="actionPan"/>
+   <addaction name="separator"/>
+   <addaction name="actionZoomin"/>
+   <addaction name="separator"/>
+   <addaction name="actionZoomout"/>
+   <addaction name="separator"/>
+   <addaction name="actionClip"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1091</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuview">
+    <property name="title">
+     <string>视图</string>
+    </property>
+    <addaction name="actionPan"/>
+    <addaction name="separator"/>
+    <addaction name="actionZoomin"/>
+    <addaction name="separator"/>
+    <addaction name="actionZoomout"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionShapefile"/>
+    <addaction name="actionGeotiff"/>
+   </widget>
+   <widget class="QMenu" name="menuTool">
+    <property name="title">
+     <string>地理处理</string>
+    </property>
+    <addaction name="actionClip"/>
+    <addaction name="actionprojection"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>帮忙</string>
+    </property>
+    <addaction name="actionPyQGISdevelop"/>
+    <addaction name="action_aboutsystem"/>
+   </widget>
+   <widget class="QMenu" name="menuDL">
+    <property name="title">
+     <string>深度学习</string>
+    </property>
+    <addaction name="actiondTrans"/>
+    <addaction name="separator"/>
+    <addaction name="actionDatasetDivide"/>
+   </widget>
+   <widget class="QMenu" name="menuDataAug">
+    <property name="title">
+     <string>数据增强</string>
+    </property>
+    <addaction name="actionStretch"/>
+    <addaction name="actionDataFlip"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>数据转换</string>
+    </property>
+    <addaction name="action_raster2vector"/>
+    <addaction name="action_vector2raster"/>
+   </widget>
+   <addaction name="menufile"/>
+   <addaction name="menuview"/>
+   <addaction name="menuTool"/>
+   <addaction name="menuDL"/>
+   <addaction name="menu"/>
+   <addaction name="menuDataAug"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <action name="actionZoomin">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/roomin.png</normaloff>:/iocn/images/roomin.png</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actionZoomout">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/roomout.png</normaloff>:/iocn/images/roomout.png</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actionShapefile">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/vector.png</normaloff>:/iocn/images/vector.png</iconset>
+   </property>
+   <property name="text">
+    <string>加载矢量</string>
+   </property>
+  </action>
+  <action name="actionGeotiff">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/raster.png</normaloff>:/iocn/images/raster.png</iconset>
+   </property>
+   <property name="text">
+    <string>加载栅格</string>
+   </property>
+  </action>
+  <action name="actionPan">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/pan.png</normaloff>:/iocn/images/pan.png</iconset>
+   </property>
+   <property name="text">
+    <string>漫游</string>
+   </property>
+  </action>
+  <action name="actionClip">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/util.png</normaloff>:/iocn/images/util.png</iconset>
+   </property>
+   <property name="text">
+    <string>分割栅格</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WidgetShortcut</enum>
+   </property>
+  </action>
+  <action name="actionSegmentation">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/deepl.png</normaloff>:/iocn/images/deepl.png</iconset>
+   </property>
+   <property name="text">
+    <string>语义分割</string>
+   </property>
+  </action>
+  <action name="actionDatasetDivide">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/deepl.png</normaloff>:/iocn/images/deepl.png</iconset>
+   </property>
+   <property name="text">
+    <string>数据集划分</string>
+   </property>
+  </action>
+  <action name="actionPyQGISdevelop">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/help.png</normaloff>:/iocn/images/help.png</iconset>
+   </property>
+   <property name="text">
+    <string>PyQGIS开发者手册</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+  </action>
+  <action name="actionStretch">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/Aug.png</normaloff>:/iocn/images/Aug.png</iconset>
+   </property>
+   <property name="text">
+    <string>百分比截断拉伸</string>
+   </property>
+  </action>
+  <action name="action_aboutsystem">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/about.png</normaloff>:/iocn/images/about.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于本系统</string>
+   </property>
+  </action>
+  <action name="action_raster2vector">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/trans.png</normaloff>:/iocn/images/trans.png</iconset>
+   </property>
+   <property name="text">
+    <string>栅格转矢量</string>
+   </property>
+  </action>
+  <action name="action_vector2raster">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/trans.png</normaloff>:/iocn/images/trans.png</iconset>
+   </property>
+   <property name="text">
+    <string>矢量转栅格</string>
+   </property>
+  </action>
+  <action name="actionprojection">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/util.png</normaloff>:/iocn/images/util.png</iconset>
+   </property>
+   <property name="text">
+    <string>定义投影</string>
+   </property>
+  </action>
+  <action name="actiondTrans">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/voc.png</normaloff>:/iocn/images/voc.png</iconset>
+   </property>
+   <property name="text">
+    <string>数据标注格式转换</string>
+   </property>
+  </action>
+  <action name="actionDataFlip">
+   <property name="icon">
+    <iconset resource="../icon.qrc">
+     <normaloff>:/iocn/images/颜色增强.png</normaloff>:/iocn/images/颜色增强.png</iconset>
+   </property>
+   <property name="text">
+    <string>数据集增广</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../icon.qrc"/>
+ </resources>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
